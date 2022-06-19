@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: url(pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: montserrat;
+    height: vh;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+.gym{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.qgf{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.aws{
+    color: blanchedalmond;
+}
+.ewq{
+    font-size: 20px;
+    color: gold;
+    margin-top: 12px;
+}
+.yqw{
+    justify-content: ;
+text-align: center;  
+  margin-top: 20px;
+}
+.plm{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.qax{
+    color: aliceblue;
+    margin-left: 10px;
+}
+.ujn{
+    font-size: 20px;
+    color: gold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.THE{
+font-size: 20px;
+color: gold;
+margin-left: 10px
+}
+.ija{
+    justify-content: ;
+    text-align: center;
+    margin-top: 20px;
+}
+.uhp{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.qwas{
+    font-size: 20px;
+    color: gold;
+    margin-left: 10px;
+}
+.olx{
+    margin-top: 10px;
+    font-size: 20px;
+    color: gold;
+    margin-left: 10px;
+}
+.ups{
+ color: white;
+ margin-left: 10px;   
+}
+.plz{
+    justify-content: ;
+    text-align: center;
+    margin-top: 20px;
+}
+.ytr{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.qxz{
+    margin-top: 10px;
+    font-size: 20px;
+    color: gold;
+    margin-left: 20px;
+}
+.var{
+    color: white;
+    margin-left: 10px;
+}
+.eds{
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.eas{
+    justify-content: ;
+    text-align: center;
+    margin-top: 20px ;
+}
+.ear{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;    
+}
+.rfd{
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.tgb{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.poi{
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.rfc{
+    justify-content: ;
+    text-align: center;
+    margin-top: 20px;
+}
+.olk{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.ikh{
+    color: gold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.ikj{
+    font-size: 20px;
+    color: gold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.wqa{
+    justify-content: ;
+    text-align: center;
+    color: white;
+    margin-top: 37px;
+}
